@@ -8,7 +8,7 @@
 #include "game.hpp"
 #include "GenericPlayerClass.hpp"
 #include "hand.hpp"
-#include "house.hpp"
+#include "house.hpp"324568
 #include "player.hpp"
 
 
@@ -37,4 +37,5 @@ std::ostream& operator<<(std::ostream& os, const Card& aCard)
         os << "XX"; 
     
     return os;
+}
 }
